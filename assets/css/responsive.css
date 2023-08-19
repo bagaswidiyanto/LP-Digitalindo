@@ -1,0 +1,149 @@
+/********** Template CSS **********/
+:root {
+    --primary: #20569F;
+    --secondary: #FFC700;
+    --light: #F0F6FF;
+    --dark: #000000;
+    --purple: #0E274E;
+}
+
+@media only screen and (min-width: 600px)  {
+
+    .testimoni .swiper-slide .testi-box {
+        filter: drop-shadow(0px 207.632px 83.1952px rgba(0, 0, 0, 0.01)) drop-shadow(0px 116.615px 70.3959px rgba(0, 0, 0, 0.05)) drop-shadow(0px 51.9081px 51.9081px rgba(0, 0, 0, 0.09)) drop-shadow(0px 12.7993px 28.4428px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+    }
+  
+    .testimoni .swiper-slide-next .testi-box {
+        padding: 1rem;
+        filter: none;
+        background: #FFFFFF;
+        box-shadow: 0px 27.632px 83.1952px rgba(0, 0, 0, 0.01), 0px 16.615px 30.3959px rgba(0, 0, 0, 0.05), 0px 21.9081px 51.9081px rgba(0, 0, 0, 0.09), 0px 12.7993px 28.4428px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1)
+    } 
+
+    .testimoni .swiper-slide .testi-box .caption .nama h5 {
+        color: #5A592F;
+        font-weight: 700;
+    }
+    
+    .testimoni .swiper-slide-next .testi-box .caption .nama h5 {
+        color: var(--primary);
+    }
+
+    .testimoni .swiper-slide .testi-box .caption .nama span {
+        color: var(--primary);
+    }
+
+    .testimoni .swiper-slide .testi-box .caption .desk {
+        display: none;
+    }
+    
+    .testimoni .swiper-slide-next .testi-box .caption .desk {
+        display: block;
+    }
+
+    .consultation .btn-wa a {
+        font-size: 13px;
+        padding: .5rem 1.7rem;
+    }
+
+    .consultation .btn-wa i {
+        font-size: 28px;
+        margin-right: .7rem;
+    }
+
+    .consultation .btn-email a {
+        font-size: 13px;
+        padding: .5rem 1.7rem;
+    }
+
+    .consultation .btn-email i {
+        font-size: 28px;
+        margin-right: .7rem;
+    }
+}
+
+
+@media only screen and (min-width: 992px)  {
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 10px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .navbar-light .navbar-brand img {
+        max-height: 45px;
+    }
+
+    .hero-header {
+        padding: 9rem 0 10rem;
+    }
+
+    .hero-header h3 {
+        font-size: 32px;
+	   padding: 10px;
+    }
+
+    
+
+    .about .caption h1 {
+        color: var(--primary);
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px)  {
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 25px;
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    
+    .navbar-light .navbar-brand img {
+        max-height: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .hero-header .logistics {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-header .img img {
+        width: calc(100% - 80px);
+    }
+
+	.hero-header .desk-header {
+		margin-right: 0
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    .special-features .check {
+        text-align: end;
+    }
+
+    .special-features .check img {
+        max-height: 40px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .testimoni .testi-box {
+        background: #FFFFFF;
+        box-shadow: 0px 27.632px 83.1952px rgba(0, 0, 0, 0.01), 0px 16.615px 30.3959px rgba(0, 0, 0, 0.05), 0px 21.9081px 51.9081px rgba(0, 0, 0, 0.09), 0px 12.7993px 28.4428px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1)
+    } 
+
+    .testimoni .testi-box .caption .nama h5 {
+        color: var(--primary);
+    }
+   
+}
+
+
+
